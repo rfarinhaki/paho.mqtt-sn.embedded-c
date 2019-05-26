@@ -15,7 +15,8 @@ SRCDIR := src
 SUBDIR := ../MQTTSNPacket/src
 
 OS := linux
-SENSORNET := udp
+#SENSORNET := udp
+SENSORNET := udp6
 TEST := tests
 
 INSTALL_DIR=../../
